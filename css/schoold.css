@@ -1,0 +1,28 @@
+.blue_test {
+	background-color: #99D9EA;
+}
+
+body
+{
+	padding-top: 20px;
+	background-image:url('../img/bg.jpg');
+	background-repeat:no-repeat;
+}
+
+.grid_container_padding
+	padding:10px;
+}
+.nav-padding
+{
+	padding-top:50px;
+}
+
+.nav_item
+{
+	font-weight: bold;
+	font-size: 22px;	
+}
+
+#myCarousel{
+	margin-left:0px;
+}
