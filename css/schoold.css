@@ -1,5 +1,6 @@
 .blue_test {
 	background-color: #99D9EA;
+	margin-left: 10px;
 }
 
 body
@@ -9,12 +10,55 @@ body
 	background-repeat:no-repeat;
 }
 
+#nav_name{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#friends_container{
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+.friendButton{
+	margin-top:4px;
+}
+
+#profile_widget
+{
+	max-height:208px;
+}
+
+#deduction_widget
+{
+	background-image:url('../img/tax_deductible.jpg');
+	max-height: 182px;
+	overflow: hidden;
+	max-width: 288px;
+
+}
+
+#deduction_InnerText{
+	text-align:center;
+	color:white;
+	font-size:x-large;
+	padding: 72px 0px;
+}
+
+.float_right
+{
+	float:right;
+}
+
 .grid_container_padding
+{
 	padding:10px;
 }
+
 .nav-padding
 {
-	padding-top:50px;
+	padding-top:14px;
 }
 
 .nav_item
@@ -25,4 +69,190 @@ body
 
 #myCarousel{
 	margin-left:0px;
+}
+
+.dropshadow {
+ -moz-box-shadow: 5px 5px 6px #999; /* Firefox */
+ -webkit-box-shadow: 5px 5px 6px #999; /* Safari/Chrome */
+ box-shadow: 5px 5px 6px #999; /* Opera and other CSS3 supporting browsers */
+ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#999999')";/* IE 8 */
+ : progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#999999');/* IE 5.5 - 7 */ 
+}
+
+#head2headAmountWidget {
+	background-image:url('../img/head2head_placeholder.jpg');
+}
+
+#pooledAmountWidget {
+	background-image:url('../img/pool_placeholder.jpg');
+}
+
+#unmatchedHead2headAmountWidget{
+	background-image:url('../img/unmatched_head2head_placeholder.jpg');
+}
+
+#viewMyChallengeWidget {
+	background-image:url('../img/my_challenges_bg.jpg');
+	padding-top:26px;
+}
+
+.amountWidget {
+	padding: 30px 0px 15px 0px;
+	max-width: 290px;
+	max-height: 100px;
+	background-repeat:no-repeat;
+	text-align:center;
+	color:white;
+	margin-bottom:20px;
+}
+
+#amountDonatedTile {
+	background-image:url('../img/donations.jpg');
+}
+
+#taxDeductibleTile {
+	background-image:url('../img/upcommingGame.jpg');
+}
+
+#taxDeductibleTileInner {
+	padding: 40px 10px;
+}
+
+#challengeGuideTile {
+	background-image:url('../img/challengeGuide.jpg');
+}
+
+#amountDonatedTileLeft{
+	max-width: 190px;
+	font-size:large;
+	text-align:center;
+	float:left;
+	padding-left:16px;
+	padding-right:22px;
+}
+
+#amountDonatedTileLeftInner{
+
+	padding-left:16px;
+	padding-right:22px;
+}
+
+#amountDonatedTileRight{
+	max-width: 190px;
+	font-size:large;
+	text-align:center;
+	padding-left:22px;
+	float:left;
+}
+
+#amountDonatedTileRightInner{
+
+	padding-left:40px;
+}
+
+div .clickable
+{
+	cursor: pointer;
+}
+.tileInnerText{
+	font-size:large;
+	padding: 75px 0px;
+}
+.amountTile {
+	
+	max-width: 390px;
+	max-height: 180px;
+	background-repeat:no-repeat;
+	text-align:center;
+	color:white;
+	margin-left: 10px;
+}
+
+.gamesTile {
+	
+	max-width: 390px;
+	max-height: 180px;
+	background-repeat:no-repeat;
+	color:white;
+	margin-left: 10px;
+}
+
+.widgetTitle {
+	max-width: 390px;
+	max-height: 180px;
+	text-align:center;
+	color:white;
+	font-weight: bold;
+}
+
+.blueBG
+{
+	background-color: #265B67;
+}
+
+.greenBG
+{
+	background-color: #77893D;
+}
+
+.grayBG
+{
+	background-color: #534040;
+}
+a.titleLink:link {color:white;}      /* unvisited link */
+a.titleLink:visited {color:white;}  /* visited link */
+a.titleLink:hover {color:white;}  /* mouse over link */
+a.titleLink:active {color:white;}
+
+.footer{
+	background-color: #ECEEEB;
+	margin:20px 0px;
+	padding:9px 20px;
+}
+
+.banner{
+	position:relative;
+	color:white;
+	font-weight: bolder;
+	overflow:hidden;
+}
+
+.banner-teams{
+	position:relative;
+}
+
+
+
+.banner-homeTeam{
+	position: absolute;
+	left:10px;
+	top:4px;
+	
+}
+
+.banner-awayTeam{
+	position: absolute;
+	right:10px;
+	top:4px;
+}
+
+.banner-split{
+	position: absolute;
+	right:-40px;
+	top:0px;
+}
+
+.cc_header {
+  display: block;
+  position: relative;
+  -moz-border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  background: #f1f4f6;
+  background-image: -webkit-linear-gradient(#f1f4f6, #e9edf0);
+  background-image: -moz-linear-gradient(#f1f4f6, #e9edf0);
+  background-image: -ms-linear-gradient(#f1f4f6, #e9edf0);
+  background-image: -o-linear-gradient(#f1f4f6, #e9edf0);
+  background-image: linear-gradient(#f1f4f6, #e9edf0);
+  border-bottom: 1px solid rgba(40,69,85,0.04);
 }

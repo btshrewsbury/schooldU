@@ -1,0 +1,424 @@
+22:41:05 04/22/13 caller [info] #####SOAP#####
+22:41:05 04/22/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-22T22:41:05-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-22T22:41:05-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+22:41:05 04/22/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-22T20:41:05.840-07:00</timestamp><ack>Success</ack><correlationId>ea8c7325aa564</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-1E8221636B0042705</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+22:41:33 04/22/13 caller [info] #####SOAP#####
+22:41:33 04/22/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-22T22:41:33-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-22T22:41:33-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+22:41:33 04/22/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-22T20:41:33.645-07:00</timestamp><ack>Success</ack><correlationId>ccdabc78ac3d7</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-3NB68772CN558903C</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+10:37:09 04/24/13 caller [info] #####SOAP#####
+10:37:09 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-24T10:37:09-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-24T10:37:09-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+10:37:10 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T08:37:10.089-07:00</timestamp><ack>Success</ack><correlationId>2d9e978a10536</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-3AJ500236S239883D</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+15:38:00 04/24/13 caller [info] #####SOAP#####
+15:38:00 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-24T15:38:00-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-24T15:38:00-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+15:38:01 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:38:01.623-07:00</timestamp><ack>Success</ack><correlationId>04101ac466424</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-72M67569P5973373H</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+15:39:05 04/24/13 caller [info] #####SOAP#####
+15:39:05 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-24T15:39:05-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-24T15:39:05-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+15:39:06 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:39:06.095-07:00</timestamp><ack>Success</ack><correlationId>046f3de7766fd</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-35N89134E0159713T</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+15:39:32 04/24/13 caller [info] #####SOAP#####
+15:39:32 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-35N89134E0159713T</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:39:32 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:39:32.567-07:00</timestamp><ack>Success</ack><correlationId>0522b7d743724</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:39:05.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:39:05.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:40:42 04/24/13 caller [info] #####SOAP#####
+15:40:42 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-24T15:40:42-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-24T15:40:42-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+15:40:42 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:40:42.835-07:00</timestamp><ack>Success</ack><correlationId>4cb700674d3fb</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-20C0422173445114G</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+15:41:02 04/24/13 caller [info] #####SOAP#####
+15:41:02 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:41:02 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:41:02.806-07:00</timestamp><ack>Success</ack><correlationId>400bfd64521ab</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:42:20 04/24/13 caller [info] #####SOAP#####
+15:42:20 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:42:20 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:42:20.565-07:00</timestamp><ack>Success</ack><correlationId>614986caa5805</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:43:54 04/24/13 caller [info] #####SOAP#####
+15:43:54 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:43:55 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:43:55.276-07:00</timestamp><ack>Success</ack><correlationId>1c91853b8357a</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:44:42 04/24/13 caller [info] #####SOAP#####
+15:44:42 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:44:43 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:44:43.138-07:00</timestamp><ack>Success</ack><correlationId>0989056188013</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:47:20 04/24/13 caller [info] #####SOAP#####
+15:47:20 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:47:20 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:47:20.719-07:00</timestamp><ack>Success</ack><correlationId>47a193d3eec52</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:49:53 04/24/13 caller [info] #####SOAP#####
+15:49:53 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:49:54 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:49:53.984-07:00</timestamp><ack>Success</ack><correlationId>6d3358cdd4d81</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:53:07 04/24/13 caller [info] #####SOAP#####
+15:53:07 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:53:08 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:53:08.322-07:00</timestamp><ack>Success</ack><correlationId>71523f7a03299</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:54:24 04/24/13 caller [info] #####SOAP#####
+15:54:24 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:54:24 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:54:24.892-07:00</timestamp><ack>Success</ack><correlationId>5e413c6316714</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+15:54:32 04/24/13 caller [info] #####SOAP#####
+15:54:32 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+15:54:33 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T13:54:33.386-07:00</timestamp><ack>Success</ack><correlationId>0dc1fbd818ec9</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:03:16 04/24/13 caller [info] #####SOAP#####
+17:03:16 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:03:17 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:03:17.373-07:00</timestamp><ack>Success</ack><correlationId>991f253e075aa</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:18:37 04/24/13 caller [info] #####SOAP#####
+17:18:37 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:18:38 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:18:38.540-07:00</timestamp><ack>Success</ack><correlationId>419fd1f428f99</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:20:24 04/24/13 caller [info] #####SOAP#####
+17:20:24 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:20:24 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:20:24.783-07:00</timestamp><ack>Success</ack><correlationId>b6f8854f02b06</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:20:34 04/24/13 caller [info] #####SOAP#####
+17:20:34 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:20:35 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:20:35.244-07:00</timestamp><ack>Success</ack><correlationId>dcb8121d042cc</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:20:57 04/24/13 caller [info] #####SOAP#####
+17:20:57 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:20:58 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:20:58.535-07:00</timestamp><ack>Success</ack><correlationId>aadbd2f50a254</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:21:04 04/24/13 caller [info] #####SOAP#####
+17:21:04 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-20C0422173445114G</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:21:04 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:21:04.493-07:00</timestamp><ack>Success</ack><correlationId>9c0376430b181</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T15:40:42.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T15:40:42.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:21:33 04/24/13 caller [info] #####SOAP#####
+17:21:33 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-24T17:21:33-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-24T17:21:33-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+17:21:34 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:21:34.113-07:00</timestamp><ack>Success</ack><correlationId>abb2116e1388d</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-805200178Y9155634</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+17:23:02 04/24/13 caller [info] #####SOAP#####
+17:23:02 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <clientDetails>
+        <ipAddress>127.0.0.1</ipAddress>
+        <deviceId>PayPal_Platform_PHP_SDK</deviceId>
+        <applicationId>APP-80W284485P519543T</applicationId>
+    </clientDetails>
+    <cancelUrl>https://schooldu.com/profile.php</cancelUrl>
+    <currencyCode>USD</currencyCode>
+    <endingDate>2014-04-24T17:23:02-05:00</endingDate>
+    <maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments>
+    <returnUrl>https://schooldu.com/payment/receipt.php</returnUrl>
+    <senderEmail>user@schooldu.com</senderEmail>
+    <startingDate>2013-04-24T17:23:02-05:00</startingDate>
+</PreapprovalRequest></soap:Body>
+</soap:Envelope>
+
+17:23:03 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:23:03.439-07:00</timestamp><ack>Success</ack><correlationId>f7e0977c6845e</correlationId><build>5710487</build></responseEnvelope><preapprovalKey>PA-3M113611X8936354Y</preapprovalKey></ns2:PreapprovalResponse></soapenv:Body></soapenv:Envelope>
+17:24:03 04/24/13 caller [info] #####SOAP#####
+17:24:03 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-3M113611X8936354Y</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:24:04 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:24:04.107-07:00</timestamp><ack>Success</ack><correlationId>e6f4b7f877aff</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T17:23:02.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T17:23:02.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:24:04 04/24/13 caller [info] #####SOAP#####
+17:24:04 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-3M113611X8936354Y</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:24:05 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:24:05.099-07:00</timestamp><ack>Success</ack><correlationId>a4b587f0776f0</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T17:23:02.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T17:23:02.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:25:09 04/24/13 caller [info] #####SOAP#####
+17:25:09 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-3M113611X8936354Y</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:25:09 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:25:09.829-07:00</timestamp><ack>Success</ack><correlationId>23205de8478fc</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T17:23:02.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T17:23:02.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
+17:25:53 04/24/13 caller [info] #####SOAP#####
+17:25:53 04/24/13 caller [info] request: 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><PreapprovalDetailsRequest>
+    <requestEnvelope>
+        <errorLanguage>en_US</errorLanguage>
+    </requestEnvelope>
+    <preapprovalKey>PA-3M113611X8936354Y</preapprovalKey>
+</PreapprovalDetailsRequest></soap:Body>
+</soap:Envelope>
+
+17:25:54 04/24/13 caller [info] response: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:PreapprovalDetailsResponse xmlns:ns2="http://svcs.paypal.com/types/ap"><responseEnvelope><timestamp>2013-04-24T15:25:54.232-07:00</timestamp><ack>Success</ack><correlationId>18d4833952d75</correlationId><build>5710487</build></responseEnvelope><approved>true</approved><cancelUrl>https://schooldu.com/profile.php</cancelUrl><curPayments>0</curPayments><curPaymentsAmount>0.00</curPaymentsAmount><curPeriodAttempts>0</curPeriodAttempts><currencyCode>USD</currencyCode><dateOfMonth>0</dateOfMonth><dayOfWeek>NO_DAY_SPECIFIED</dayOfWeek><endingDate>2014-04-24T17:23:02.000-05:00</endingDate><maxTotalAmountOfAllPayments>500.00</maxTotalAmountOfAllPayments><paymentPeriod>NO_PERIOD_SPECIFIED</paymentPeriod><pinType>NOT_REQUIRED</pinType><returnUrl>https://schooldu.com/payment/receipt.php</returnUrl><senderEmail>user@schooldu.com</senderEmail><startingDate>2013-04-24T17:23:02.000-05:00</startingDate><status>ACTIVE</status><displayMaxTotalAmount>false</displayMaxTotalAmount><sender><accountId>CQCTGAE68JC2L</accountId></sender></ns2:PreapprovalDetailsResponse></soapenv:Body></soapenv:Envelope>
