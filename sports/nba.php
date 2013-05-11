@@ -8,12 +8,17 @@ class NBA {
 	
 	public static function displayYearSpan() 
 	{ 
-		$sixMonthsUp = date("Y-m-d",strtotime("+6 months"));
-		$sixMonthsDown = date("Y-m-d",strtotime("-6 months"));
+		$sixMonthsUp = date("Y-m-d",strtotime("+2 weeks"));
+		$sixMonthsDown = date("Y-m-d",strtotime("-1 days"));
 
 		$games = Game::getGamesOverDateRangeInSport(2,"$sixMonthsDown","$sixMonthsUp");
-		echo "<center><img src='img/bracket_banner/nba_bracket_banner.png' style='height:25px'/></center>";
-		
+		?>
+		<center><img src='img/bracket_banner/nba_bracket_banner.png' style='height:25px'/></center>
+		<br/>
+		<!--<div class="well well-small">
+		<h5>Game Search</h5>
+		</div>-->
+		<?
 		for($i = 0; $i < count($games); $i++) {
 			if($i % 2 == 0)
 				echo "<div class='row-fluid'>";
@@ -32,8 +37,8 @@ class NBA {
 		$awayTeamLogo = $game->get_away_team_logo();
 		$homeTeamName = $game->get_home_team()->get_name();
 		$homeTeamLogo = $game->get_home_team_logo();
-		$date = $game->get_date();
-		$time = $game->get_time();
+		$date = $game->get_formatted_date();
+		$time = $game->get_formatted_time();
 		$homeScore = $game->get_home_team_score();
 		$awayScore = $game->get_away_team_score();
 		?>
@@ -65,6 +70,11 @@ class NBA {
 			<br/>
 			<span class="label"><? echo($date); ?></span> 
 			<span class="label"><? echo($time); ?></span> 
+			<?
+			if($game->is_finished())
+			{?>
+				<span class="label">Final</span> 
+			<?}?>
 			
 		</div>
 	</div>

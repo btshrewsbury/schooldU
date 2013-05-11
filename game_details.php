@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' )
 	
 	$homeTeam = $theGame->get_home_team();
 	$awayTeam = $theGame->get_away_team();
-	$date = $theGame->get_date();
+	$date = $theGame->get_formatted_date();
 	$awayTeamName = $awayTeam->get_name();		
 	$homeTeamName = $homeTeam->get_name();	
 	$title="- $homeTeamName vs $awayTeamName: $date";

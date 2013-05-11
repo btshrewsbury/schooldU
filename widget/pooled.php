@@ -44,7 +44,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 		<br/>
 		
 		<div class="row-fluid">
-			<button class="btn btn-success span6" onclick="challengeFormSubmit('pooled')" style="min-height:40px;">Accept the Challenge!</button>
+			<button class="btn btn-success span6" onclick="challengeFormSubmit('pooled')" style="min-height:40px;">Create Challenge!</button>
 			<button class="btn btn-danger span6"  onclick="challengeFormSubmit('createChallenge')" style="min-height:40px;">I Changed My Mind</button>
 		</div>
 		

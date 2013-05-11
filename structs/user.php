@@ -27,7 +27,7 @@ private $paypal_pa;
 	{
         if(isset($row)){
 			$this->user_id= $row['user_id'];
-			$this->email= $row['email'];
+			$this->email= ($row['email'] == '') ? NULL : $row['email'];
 			$this->fb_code= $row['fb_code'];
 			$this->fb_access_token= $row['fb_access_token'];
 			$this->fb_id= $row['fb_id'];

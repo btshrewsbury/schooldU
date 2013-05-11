@@ -6,7 +6,8 @@ function postToWall($message, $link)
 	global $facebook;
 	$msg = array(
 	'link' => $link,
-	'message' => $message
+	'message' => $message,
+	'picture' => 'http://schooldu.com/img/Schooldu_app.png'
 	);
 	
 	try {

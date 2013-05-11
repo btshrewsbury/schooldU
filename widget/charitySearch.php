@@ -104,7 +104,7 @@ function showSearchForm($action)
 	</div>
 	<br/><br/>
 	<div class="row-fluid">
-		<button class="btn btn-success span6 disabled challengeButton" onclick="charityFound()" style="min-height:40px;">Lets Verify!</button>
+		<button class="btn btn-success span6 disabled challengeButton" onclick="charityFound()" style="min-height:40px;">Next!</button>
 		<button class="btn btn-danger span6"  onclick="challengeFormSubmit('createChallenge')" style="min-height:40px;">Cancel</button>
 	</div>
 	

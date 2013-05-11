@@ -207,7 +207,7 @@ class Head2Head {
 		{
 			return null;
 		}
-		$search = "SELECT * FROM head2head WHERE `user_id` = '$user_id' AND `paired_challenge_id` = 0";
+		$search = "SELECT * FROM head2head WHERE `user_id` = '$user_id' AND `paired_challenge_id` = 0 AND WON = 0";
 		return Head2head::getObjects($search);
 	}
 	
@@ -232,6 +232,7 @@ class Head2Head {
 		$delete = "DELETE FROM `head2head` WHERE `challenge_id` = $game_id";
 		db_execute($delete);
 	}
+	
 	
 	public static function getHead2HeadAmountFromGame($game_id)
 	{
@@ -309,7 +310,7 @@ class Head2Head {
 			return null;
 		}
 		
-		$search = "SELECT * FROM `head2head` WHERE `game_id` = '$game_id' AND `paired_challenge_id` != 0";
+		$search = "SELECT * FROM `head2head` WHERE `game_id` = '$game_id'";
 		return Head2head::getObjects($search);
 	}
 	
@@ -325,7 +326,6 @@ class Head2Head {
 			{
 				$challenges[$i]->set_won(1);
 			}
-			
 			if($challenges[$i]->get_team_id() == $loseTeamId)
 			{
 				$challenges[$i]->set_won(-1);
@@ -373,7 +373,7 @@ class Head2Head {
 		return 0;
 	}
 	
-	public function getTopCharitiesByGame($game_id,$limit = 6)
+	public static function getTopCharitiesByGame($game_id,$limit = 6)
 	{
 		$game_id = (int) $game_id;
 		if(!is_int($game_id) || $game_id == 0)
@@ -390,7 +390,7 @@ class Head2Head {
 		return $objects;
 	}
 	
-	public function getFavoriteCharitiesByUser($user_id,$limit = 6)
+	public static function getFavoriteCharitiesByUser($user_id,$limit = 6)
 	{
 		$user_id = (int) $user_id;
 		if(!is_int($user_id) || $user_id == 0 || !is_int($limit))
@@ -435,7 +435,7 @@ class Head2Head {
 			return 0;
 		}
 		
-		$search = "SELECT count(challenge_id) FROM head2head WHERE `user_id` = '$user_id' AND `won` = '1'";
+		$search = "SELECT count(challenge_id) FROM head2head WHERE `user_id` = '$user_id' AND `won` = '1' AND `paired_challenge_id` != 0";
 		$result = db_execute($search);
 		while ($row = mysqli_fetch_assoc($result)) {
 			$amount = $row["count(challenge_id)"];
@@ -453,7 +453,7 @@ class Head2Head {
 			return 0;
 		}
 	
-		$search = "SELECT count(challenge_id) FROM head2head WHERE `user_id` = '$user_id' AND `won` = '-1'";
+		$search = "SELECT count(challenge_id) FROM head2head WHERE `user_id` = '$user_id' AND `won` = '-1' AND `paired_challenge_id` != 0";
 		$result = db_execute($search);
 		while ($row = mysqli_fetch_assoc($result)) {
 			$amount = $row["count(challenge_id)"];

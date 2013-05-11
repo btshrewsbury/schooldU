@@ -18,7 +18,7 @@ function showFriends($challenge)
 	$me = getMe();
 	$name = $me->get_name();
 	$gameLink = "https://schooldu.com/game_details.php?gid=" . $theGame->get_game_id();
-	$head2headMsg = "$name put down $$amount.00 for $charityName and thinks $winTeamName is going to kick $loseTeamName's arse during March Madness. Are you ready to put money up for charity? For glory? For the chance to rub $winTeamName's loss in $name's face?";
+	$head2headMsg = "$name put down $$amount.00 for $charityName and thinks $winTeamName is going to kick $loseTeamName's arse. Are you ready to put money up for charity? For glory? For the chance to rub $winTeamName's loss in $name's face?";
 	$head2headLink = "https://schooldu.com/game_details.php?cid=" . $challengeId;
 	$head2headTitle = "Created a Head 2 Head Donation Challenge";	
 
@@ -145,10 +145,9 @@ function showFriendsForPool($challenge)
 	//$charityName = $charity->get_name();
 	$me = getMe();
 	$name = $me->get_name();
-		
-	$msg = "March Madness Schoold U Beta - Pooled Challenge Creation Auto Post";
-	$link = "https://schooldu.com";
-	$title = "Joined the Schoold U Pooled Donation Challenge";	
+
+	$msg = "$name put down $$amount.00 for Charity. The $$amount goes to the Charity SchooldU has paired with the winning team. Are you up for the challenge?";
+	$title = "Join the SchooldU Donation Challenge";	
 
 	?>
 	<div>
@@ -168,9 +167,9 @@ function showFriendsForPool($challenge)
 	<br/>
 	<script>
 		var descrip = "<?echo($msg);?>";
-		var link = "<?echo($link);?>";
+		var link = "<?echo($gameLink);?>";
 		var title = "<?echo($title);?>";
-		var linkName = "Schoold U Donation Challenge"
+		var linkName = "SchooldU Donation Challenge"
 		var to = "";
 	</script>
 	

@@ -22,7 +22,7 @@ function showVerify()
 	<br/>
 	
 	<div class="row-fluid">
-		<button class="btn btn-success span6" onclick="challengeFormSubmit('head2head')" style="min-height:40px;">Accept the Challenge!</button>
+		<button class="btn btn-success span6" id="accept-btn" onclick="$('#accept-btn').addClass('disabled');  challengeFormSubmit('head2head')" style="min-height:40px;">Create Challenge!</button>
 		<button class="btn btn-danger span6"  onclick="challengeFormSubmit('createChallenge')" style="min-height:40px;">I Changed My Mind</button>
 	</div>
 	

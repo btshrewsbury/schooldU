@@ -41,6 +41,8 @@ if(isLoggedIn())
 	<script src="js/social.js"></script>
 	<script src="https://js.stripe.com/v2/"></script>
 	<script src="js/payment.js"></script>
-	
+	<script>
+		$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
+	</script>
 
   </head>

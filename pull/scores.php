@@ -20,31 +20,30 @@ $ResultSet = $Scoreboard['ResultSet'];
 $Scoreboard = $ResultSet['Scoreboard'];
 $games = $Scoreboard['Game'];
 
-
+//var_dump($games);
 foreach($games as $game)
 {
-	$finished = ($game['Status'] == "Final" ? 1 : 0);
-	$homeScore = $game['HomeScore'];
-	$awayScore = $game['AwayScore'];
 	$gameId = $game['GameId'];
 	$aGame = Game::getGameByIdAndSportId($gameId,2);
 	
-	if(isset($game))
+	if(isset($aGame))
 	{
-
+		$finished = ($game['Status'] == "Final" ? 1 : 0);
+		$homeScore = $game['HomeScore'];
+		$awayScore = $game['AwayScore'];
 		$aGame->set_away_team_score($awayScore);
 		$aGame->set_home_team_score($homeScore);
 		
-		echo("updated game $gameId<br/>");
+		echo("<br/>updated game $gameId");
 		
 		if(!$aGame->is_finished() && $finished == 1)
 		{
 			$aGame->gameOver();
 			Transaction::createTransactionsFromGameEnd($gameId);
-			echo("Game $gameId ended!<br/>");
+			echo(" - <b>ended!</b>");
 		}
 	}
 }
 Transaction::ProcessUnpaidTransactions();
-echo "FINISHED!";
+echo "<br/>FINISHED!";
 ?>

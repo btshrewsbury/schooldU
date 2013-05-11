@@ -156,9 +156,10 @@ class Game {
 	
 	public function gameOver()
 	{
-		Head2Head::updateFinishedChallenges($this->game_id);
+		
 		$this->set_is_finished(1);
 		$this->save();
+		Head2Head::updateFinishedChallenges($this->game_id);
 	}
 	
 	public function delete(){
